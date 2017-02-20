@@ -13,6 +13,7 @@ public class TestController {
     
     @RequestMapping("/welcome")
     public String index() {
-        return "<b>Welcome</b> to compleX-Machine";
+        return "<b>Welcome</b> to compleX-Machine!";
+
     }
 }
