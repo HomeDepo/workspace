@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class TestController {
+    
     @RequestMapping("/welcome")
     public String index() {
-        return "Hi this inteliJ!";
+        return "<b>Welcome</b> to compleX-Machine";
     }
 }
