@@ -118,3 +118,4 @@ dist/
 nbdist/
 .nb-gradle/
 /compleX-Machine.iml
+/target/

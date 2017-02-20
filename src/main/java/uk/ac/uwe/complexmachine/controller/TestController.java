@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/welcome")
     public String index() {
-        return "Welcome to compleX-Machine";
+        return "Hi this inteliJ!";
     }
 }
